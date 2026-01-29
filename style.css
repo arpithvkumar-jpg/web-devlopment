@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ced4da;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.CardTittle{
+    background-color:#edede9;
+    width: 590px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.moneySection{
+    background-color: #0a9396;
+    height: 320px;
+    width: 600px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+     box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+.moneyDisplay{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+ 
+.addFiled button{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 60px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    border: none;
+    background-color: #003049;
+    color: white;
+    cursor: pointer;
+   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
+}
+
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+.moneySection h5{
+    margin: 5px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 40px;
+}
+.moneyDisplay button{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+.addFiled{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.section-catgri{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.section-catgri button{
+    width: 110px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    background-color: #406882;
+    color: white;
+    cursor: pointer;
+   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+}
